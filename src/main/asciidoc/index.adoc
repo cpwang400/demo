@@ -1,0 +1,34 @@
+= demo document
+:author: cp wang
+:email: cwang400@gmail.com
+:revnumber: v1.0
+:revdate: 2021-01-17
+:toc: left
+:toc-title: User API
+
+
+== User Controller
+=== create
+include::{snippets}\create-user-example\http-request.adoc[]
+include::{snippets}\create-user-example\http-response.adoc[]
+include::{snippets}\create-user-example\request-body.adoc[]
+include::{snippets}\create-user-example\response-bocy.adoc[]
+
+=== find by token
+include::{snippets}\find-user-by-token-example\http-request.adoc[]
+include::{snippets}\find-user-by-token-example\http-response.adoc[]
+include::{snippets}\find-user-by-token-example\request-body.adoc[]
+include::{snippets}\find-user-by-token-example\response-bocy.adoc[]
+
+== Token Controller
+=== login
+include::{snippets}\user-login-example\http-request.adoc[]
+include::{snippets}\user-login-example\http-response.adoc[]
+include::{snippets}\user-login-example\request-body.adoc[]
+include::{snippets}\user-login-example\response-bocy.adoc[]
+
+=== logout
+include::{snippets}\user-logout-example\http-request.adoc[]
+include::{snippets}\user-logout-example\http-response.adoc[]
+include::{snippets}\user-logout-example\request-body.adoc[]
+include::{snippets}\user-logout-example\response-bocy.adoc[]
